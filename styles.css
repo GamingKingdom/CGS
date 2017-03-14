@@ -101,7 +101,7 @@ fieldset {
   border: none;
 }
 body {
-  background: url('/web/20170107110159/http://mycastleguard.com/images/texture.gif') repeat;
+  background: url('texture.gif') repeat;
 }
 span.help-text {
   color: #888;
@@ -651,13 +651,13 @@ div.popular {
   margin-bottom: 10px;
 }
 #tab-kids {
-  background: #ffffff url('/web/20170107110159/http://mycastleguard.com/images/school-kids.jpg') bottom right no-repeat;
+  background: #ffffff url('school-kids.jpg') bottom right no-repeat;
 }
 #tab-log {
-  background: #ffffff url('/web/20170107110159/http://mycastleguard.com/images/worker.jpg') bottom right no-repeat;
+  background: #ffffff url('worker.jpg') bottom right no-repeat;
 }
 #tab-vaca {
-  background: #ffffff url('/web/20170107110159/http://mycastleguard.com/images/vacation.jpg') bottom right no-repeat;
+  background: #ffffff url('vacation.jpg') bottom right no-repeat;
 }
 #tab-connect {
   background: #fff;
@@ -732,136 +732,6 @@ div.popular {
 }
 #monitoring div.step img {
   margin-bottom: 15px;
-}
-#cart #hero {
-  padding-bottom: 15px;
-}
-#cart #hero input {
-  float: left;
-}
-#cart #hero strong {
-  display: block;
-  color: #000;
-}
-#cart #hero img {
-  float: left;
-  margin: 0px 10px 0px 0px;
-}
-#cart #hero ul {
-  float: left;
-  width: 335px;
-  margin-bottom: 0px;
-}
-#cart #hero label {
-  margin-left: 16px;
-  cursor: pointer;
-}
-#cart #hero span {
-  font-size: 24px;
-  font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #aa4900;
-  margin-left: 15px;
-}
-#cart #upgrades {
-  background-color: #fff;
-  padding-top: 25px;
-  border-bottom: 1px solid #ccc;
-  box-shadow: inset 0 0 10px #cccccc;
-}
-#cart div.accessory {
-  width: 21%;
-  padding: 0px 25px 0px 0px;
-  float: left;
-  margin: 0px 25px 55px 0px;
-}
-#cart div.accessory img {
-  width: 100px;
-}
-#cart div.accessory ul {
-  margin-bottom: 10px;
-  font-size: 12px;
-  color: #999;
-  min-height: 50px;
-}
-#cart div.accessory ul strong {
-  color: #3f3f3f;
-  font-size: 14px;
-}
-#cart div.accessory li.price {
-  font-weight: bold;
-  font-size: 20px;
-  padding-top: 5px;
-  color: #30891d;
-}
-#cart div.accessory input.quantity {
-  width: 45px;
-  font-weight: bold;
-  margin-bottom: 0px;
-}
-#cart div.accessory input.check {
-  margin-right: 10px;
-}
-#cart div.accessory a.button {
-  margin-bottom: 3px;
-}
-#cart #last {
-  clear: left;
-}
-#cart div.adder span {
-  font-size: 14px;
-  color: #fff;
-  margin-left: 5px;
-  background-color: #aa4900;
-  padding: 7px 15px;
-  border-radius: 3px;
-}
-#cart #hero li {
-  padding: 10px 0px 10px 10px;
-  overflow: auto;
-}
-#cart #hero li label {
-  color: #666666;
-}
-#cart #hero li strong {
-  font-weight: normal;
-}
-#cart #hero li span {
-  color: #3f3f3f;
-  font-size: 18px;
-}
-#cart #hero li.on {
-  box-shadow: 0px 0px 3px #666;
-  border: 1px solid #CCC;
-  border-radius: 10px;
-  background-color: #ffffff;
-}
-#cart #hero li.on label {
-  color: #666666;
-}
-#cart #hero li.on strong {
-  font-weight: bold;
-}
-#cart #hero li.on span {
-  font-size: 24px;
-  font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #aa4900;
-  margin-left: 15px;
-}
-#cart #form {
-  clear: both;
-  margin-bottom: 55px;
-  overflow: auto;
-  padding: 45px 0px 55px 0px;
-  border-top: 1px solid #ccc;
-}
-#cart #form fieldset {
-  float: left;
-  margin-right: 25px;
-}
-#cart #form a.button {
-  margin: 20px 0px 0px 20px;
 }
 #reasons #hero {
   margin-bottom: 50px;
@@ -1109,8 +979,8 @@ table.price-table .desc {
   margin-right: 10px;
 }
 @media screen and (max-width: 1000px) {
-  /* make shit linear once you drop below ipad horizontal (1024 width) */
-  * {
+  /*linear dropping below ipad horizontal of 1024 width */
+  {
     padding: 0px;
     width: auto;
     float: none;
@@ -1289,20 +1159,6 @@ table.price-table .desc {
     margin: 0px auto;
   }
 }
-#cart .ads,
-#footer .ads {
-  text-align: center;
-}
-#cart .ads a,
-#footer .ads a {
-  margin-right: 10px;
-  float: left;
-  width: auto;
-}
-#cart .ads img,
-#footer .ads img {
-  float: none !important;
-}
 @media screen and (max-width: 728px) {
   #hero img,
   #promo img,
@@ -1390,34 +1246,5 @@ table.price-table .desc {
     width: auto;
     float: none;
     margin-right: 0;
-  }
-  #cart div.accessory {
-    width: auto;
-    float: none;
-    height: auto;
-    text-align: center;
-    margin: 0 15px 10px 15px;
-  }
-  #cart #hero {
-    clear: both;
-  }
-  #cart #hero ul {
-    clear: both;
-    width: auto;
-    float: none;
-    padding: 15px;
-  }
-  #cart .ads {
-    text-align: center;
-  }
-  #cart .ads img {
-    float: none;
-    margin-bottom: 10px;
-  }
-  #cart #form {
-    padding: 10px;
-  }
-  #cart #form fieldset {
-    float: none;
   }
 }
