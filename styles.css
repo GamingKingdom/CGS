@@ -534,6 +534,17 @@ div.package img {
 #accessories #hero a.button {
   margin-bottom: 25px;
 }
+#accessories div.basic {
+  height: 350px;
+  border: 1px solid #efefef;
+  background-color: #fff;
+  box-shadow: inset 0px 0px 2px #ccc;
+  width: 75%;
+  padding: 25px 20px 25px 32px;
+  float: none;
+  margin: 0px 25px 25px 0px;
+  border-radius: 4px;
+}
 #accessories div.accessory {
   height: 350px;
   border: 1px solid #efefef;
