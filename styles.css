@@ -800,10 +800,10 @@ div.popular {
   color: #bfd9e6;
 }
 #footer ul {
-  width: 565px;
+  text-align: center;
+  width: 100%;
   float: left;
-  margin-right: 25px;
-  clear: left;
+  clear: both;
 }
 #footer ul li {
   margin-bottom: 5px;
