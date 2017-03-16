@@ -102,6 +102,7 @@ fieldset {
 }
 body {
   background: url('texture.gif') repeat;
+  margin: 0;
 }
 span.help-text {
   color: #888;
