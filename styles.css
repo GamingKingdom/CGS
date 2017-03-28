@@ -793,6 +793,12 @@ div.popular {
   padding: 25px;
   margin-left: 25px;
 }
+#footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding-top: 150px;
+}
 #footer #foot {
   padding: 0px 0px 0px 0px;
   border-top: 5px solid #006699;
